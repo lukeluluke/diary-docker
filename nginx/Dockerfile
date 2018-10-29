@@ -26,4 +26,5 @@ RUN echo "upstream php-upstream { server ${PHP_UPSTREAM_CONTAINER}:${PHP_UPSTREA
 
 CMD ["nginx"]
 
+
 EXPOSE 80 443
